@@ -10,7 +10,7 @@ def load_data(ubicacion_datos):
 def calcular_imc(serie):
     #INICIO DE CODIGO
     #Modificar la linea donde dice "None"
-    promedio_BMI = None
+    promedio_BMI = serie.mean()
     #FIN DE CODIGO
 
     return promedio_BMI
